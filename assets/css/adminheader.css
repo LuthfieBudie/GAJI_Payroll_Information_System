@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../css/123.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; /* Add this line to hide scrollbars */
+}
+.image{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    width: 200px;
+    height: 70px;
+    background-image: url(../css/logo2.png) ;
+    background-size: cover;
+}
+.img{
+    position: relative;
+    top: -15px;
+    left: 920px;
+    pointer-events: none;
+    height: 800px;
+    width: 604px;
+    background-image: url(../css/12.png) ;
+    background-size: cover;
+    box-shadow: 0 8px 5px rgb(0 0 0 / 0.2);
+}
+.img1{
+    position: relative;
+    bottom: 815px;
+    left: 375px;
+    width: 580px;
+    height: 800px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 8px 5px rgb(0 0 0 / 0.2);
+}
+.img2{
+    position: relative;
+    bottom: 1550px;
+    left: 930px;
+    pointer-events: none;
+    background-size: 600px;
+    height: 1000px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-image: url(../css/1.png) ;
+}
+.text1 {
+
+    position: relative;
+    left: 500px;
+    bottom: 2400px;
+}
+.text1 h1{
+    position: relative;
+    bottom: 60px;
+    right: 840px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:500;
+}
+.text1 h3{
+    position: relative;
+    color: rgb(83, 83, 83);
+    font-weight: 200;
+    bottom: 90px;
+    right: 10px;
+}
+.user{
+    position: relative;
+    bottom: 2550px;
+    left: 930px;
+}
+.form-group{
+    position: relative;
+    left: 200px;
+    top: -80px;
+    height: 50px;
+    width: 100%;
+    margin-top: 32px;
+    position: relative;
+}
+.btn {
+    position: relative;
+    right: 443px;
+    height: 60px;
+    top: 67px;
+    width: 390px;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 14px 0;
+    margin: 25px 0;
+    color: rgb(255, 255, 255);
+    background-color: #ffb144;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn:hover {
+    background-color: #f9a228;
+}
+input {
+    position: relative;
+    right: 642px;
+    top: 100px;
+    height: 50px;
+    width: 390px;
+    margin-top: 32px;
+    border: 1px solid rgb(210, 210, 210);
+    text-align: left ;
+    padding-left: 5px;
+}
+.text-danger {
+    position: relative;
+    top: 100px;
+    right: 640px;
+    color: rgb(0, 0, 0);
+}
